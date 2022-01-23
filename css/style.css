@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@500&family=Fira+Sans:wght@200&family=Island+Moments&family=Lobster&family=Montserrat:wght@200;400&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@100&family=The+Nautigal:wght@400;700&display=swap');
+
+
+html{
+    font-size: 62.5%;
+}
+.logo{
+    width:30rem;
+}
+.custom-font{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 8rem;
+
+}
+nav{
+    height:8rem;
+}
+.banner-background{
+    background: #FFF9F4;
+    height:calc(100vh - 8rem);
+}
+.mar{
+    margin-right: 0;
+    margin: 0;
+}
+.buy-btn{
+    padding: 1rem 2rem;
+    color: #fff;
+    font-size: 1.8rem;
+    outline: none;
+    background:linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: .4s all;
+}
+.buy-btn:hover{
+    color:#3D4FF3;
+    background: #fff;
+    border:1px solid #3D4FF3  ;
+}
+/* banner section start  */
+.banner-heading{
+    color: #FA804C;
+    font-size:8rem;
+}
+.banner-details-padding{
+    padding-left:10rem;
+}
+
