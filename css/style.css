@@ -96,14 +96,17 @@ footer p{
 @media screen and (min-width:300px) and (max-width:768px){
     
     .center{
-        padding-bottom:8rem;
+        padding-top:8rem;
+    }
+    .banner-img{
+        width:40rem;
     }
 }
-@media screen and (min-width:300px) and (max-width:768px){
+/* @media screen and (min-width:300px) and (max-width:768px){
     
     .center{
         padding-bottom:8rem;
     }
-}
+} */
 
 
