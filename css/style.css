@@ -4,13 +4,14 @@
 html{
     font-size: 62.5%;
 }
+/* body{
+    overflow-x: hidden;
+} */
 .logo{
     width:30rem;
 }
 .custom-font{
     font-family: 'Bebas Neue', cursive;
-    font-size: 8rem;
-
 }
 nav{
     height:8rem;
@@ -18,10 +19,10 @@ nav{
 .banner-background{
     background: #FFF9F4;
     height:calc(100vh - 8rem);
+    min-height:calc(100vh - 8rem);
 }
-.mar{
-    margin-right: 0;
-    margin: 0;
+.banner-details{
+    width: 40rem;
 }
 .buy-btn{
     padding: 1rem 2rem;
@@ -34,6 +35,7 @@ nav{
     border: none;
     text-decoration: none;
     transition: .4s all;
+    border:1px solid #3D4FF3
 }
 .buy-btn:hover{
     color:#3D4FF3;
@@ -43,9 +45,65 @@ nav{
 /* banner section start  */
 .banner-heading{
     color: #FA804C;
-    font-size:8rem;
+    font-size:6rem;
 }
-.banner-details-padding{
-    padding-left:10rem;
+.img-color{
+    background: #F1F1F1;
+    border-radius: 20px;
 }
+
+
+/* card section start  */
+.price{
+    color:#FA804C;
+}
+.card-btn{
+    padding: .8rem 1.4rem;
+    color: #fff;
+    font-size: 1.6rem;
+    outline: none;
+    background:linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    border-radius:1rem;
+    outline: none;
+    text-decoration: none;
+    transition: .4s all;
+    border:1px solid #3D4FF3
+}
+.card-btn:hover{
+    color:#3D4FF3;
+    background: #fff;
+    border:1px solid #3D4FF3  ;
+}
+
+
+.custom-margin{
+    margin-top:12rem;
+}
+
+footer{
+    padding: 2rem 0;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-size:1.5rem;
+}
+footer p{
+    margin-bottom:0;
+}
+
+
+/* banner media query  */
+@media screen and (min-width:300px) and (max-width:768px){
+    
+    .center{
+        padding-bottom:8rem;
+    }
+}
+@media screen and (min-width:300px) and (max-width:768px){
+    
+    .center{
+        padding-bottom:8rem;
+    }
+}
+
 
